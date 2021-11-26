@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "1",
+    "name": "Narcoleptic NEIPA",
+    "abv": 6.2,
+    "isTapped": true,
+    "recipe": "Mash 60 minutes. Hop additions. Add yeast",
+    "grains": [
+      "26 lbs 2 row malt",
+      "13 lbs white wheat malt",
+      "4 lbs flaked oat",
+      "2 lbs honey malt"
+    ]
+  },{
+    "_id": "1",
+    "name": "Narcoleptic NEIPA",
+    "abv": 6.2,
+    "isTapped": true,
+    "recipe": "Mash 60 minutes. Hop additions. Add yeast",
+    "grains": [
+      {"malt": "2 row", "qty": "26", "unit": "lbs"},
+      {"malt": "white wheat", "qty": "13", "unit": "lbs"},
+      {"malt": "flaked oat", "qty": "4", "unit": "lbs"},
+      {"malt": "honey", "qty": "2", "unit": "lbs"}
+    ]
+  },{
+    "_id": "3",
+    "name": "Narcoleptic NEIPA",
+    "abv": 6.2,
+    "is_tapped": true,
+    "recipe": "Mash 60 minutes @ 152. Boil 60 minutes.",
+    "grains": [
+      {"malt": "2 row", "qty": 13, "unit": "lbs"},
+      {"malt": "Marris Otter", "qty": 13, "unit": "lbs"},
+      {"malt": "white wheat", "qty": 13, "unit": "lbs"},
+      {"malt": "flaked oat", "qty": 4, "unit": "lbs"},
+      {"malt": "honey", "qty": 2, "unit": "lbs"}
+    ],
+    "hops": [
+      {"hop": "Citra", "qty": 4, "unit": "oz", "time": "Boil 5"},
+      {"hop": "Simcoe", "qty": 4, "unit": "oz", "time": "Boil 5"},
+      {"hop": "Mosaic", "qty": 4, "unit": "oz", "time": "Boil 5"},
+      {"hop": "Citra", "qty": 4, "unit": "oz", "time": "Hold 30 @ 180"},
+      {"hop": "Simcoe", "qty": 4, "unit": "oz", "time": "Hold 30 @ 180"},
+      {"hop": "Mosaic", "qty": 4, "unit": "oz", "time": "Hold 30 @ 180"},
+      {"hop": "Citra", "qty": 8, "unit": "oz", "time": "Dry Hop"},
+      {"hop": "Simcoe", "qty": 8, "unit": "oz", "time": "Dry Hop"},
+      {"hop": "Mosaic", "qty": 8, "unit": "oz", "time": "Dry Hop"}
+    ],
+    "yeast": [
+      {"yeast": "US-05", "qty": 1, "unit": "packet"}
+    ]
+  },
+  {
+    "_id": "2",
+    "name": "Megalomania Mango IPA",
+    "abv": 7.5,
+    "isTapped": true
+  },
+  {
+    "_id": "1",
+    "name": "Paranoid Porter",
+    "isTapped": false
+  }
+]
